@@ -18,6 +18,4 @@ func IsValidWalk(walk []rune) bool {
 	}
 
 	return locationX == 0 && locationY == 0 && len(walk) == 10
-
-	return false
 }
