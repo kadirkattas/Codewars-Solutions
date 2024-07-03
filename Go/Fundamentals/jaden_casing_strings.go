@@ -3,6 +3,7 @@ package kata
 import "strings"
 
 func ToJadenCase(str string) string {
+	// return strings.Title(str)
 	res := ""
 	for i := 0; i < len(str); i++ {
 		if i == 0 && str[i] != ' ' {
